@@ -75,3 +75,10 @@ body{
 .choice:hover{
   color:var(--primary-color);
 }
+.text-win{
+  color:var(--win-color);
+}
+.text-lose{
+  color:var(--lose-color);
+
+}
