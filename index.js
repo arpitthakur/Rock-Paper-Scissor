@@ -81,5 +81,17 @@ function getWinner(p,c){
       
         modal.style.display = 'block';
       } 
-        
+        function restartGame(){
+            scoreboard.player = 0;
+            scoreboard.computer = 0;
+            score.innerHTML = `
+            <p>Player: 0</p>
+            <p>Computer: 0</p>
+            `;
+        }
+        function clearModal(e) {
+            if (e.target == modal){
+                modal.style.display = 'none';
+            }
+        }
     
